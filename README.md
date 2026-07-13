@@ -1,94 +1,151 @@
 # 🚀 FounderAI – AI Startup Co-Founder
 
-FounderAI is an Agentic AI-powered platform that helps entrepreneurs validate startup ideas, analyze competitors, generate business strategies, estimate financial planning, and create investor-ready startup reports.
+<p align="center">
 
-Built using Streamlit, LangChain, and Groq LLMs, FounderAI simulates multiple AI agents working together to provide comprehensive startup guidance.
+Transform your startup idea into a complete business strategy using AI-powered multi-agent intelligence.
 
----
+Built with **Python**, **Streamlit**, **LangChain**, and **Groq LLM**.
 
-## 📌 Features
-
-- 💡 Startup Idea Validation
-- 📊 Market Research Analysis
-- 🏆 Competitor Analysis
-- 💼 Business Model Generation
-- 💰 Financial Planning
-- 📣 Marketing Strategy
-- 🎯 Startup Scoring
-- 🛣️ Business Roadmap Generation
-- 🤖 Multi-Agent AI Workflow
-- ⚡ Fast Responses using Groq LLM
+</p>
 
 ---
 
-## 🖥️ Demo
+## 📖 Overview
 
-Enter your startup idea and FounderAI generates detailed business insights in seconds.
+FounderAI is an **Agentic AI platform** that acts as your virtual startup co-founder.
 
-Example:
+Instead of providing a single AI response, FounderAI coordinates multiple AI agents to evaluate a startup idea from different business perspectives including validation, market research, competitor analysis, financial planning, marketing, and execution strategy.
 
-> AI-powered platform for college placement preparation.
-
-FounderAI analyzes:
-
-- Idea Validation
-- Market Potential
-- Competitors
-- Revenue Model
-- Financial Plan
-- Marketing Strategy
-- Startup Score
-- Roadmap
+Whether you're an entrepreneur, student, or innovator, FounderAI helps convert raw ideas into actionable business plans within minutes.
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Key Features
+
+- ✅ AI Startup Score
+- ✅ Startup Idea Validation
+- ✅ Market Research
+- ✅ Competitor Analysis
+- ✅ Business Model Generation
+- ✅ Financial Planning
+- ✅ Marketing Strategy
+- ✅ Investor Pitch
+- ✅ 12-Month Execution Roadmap
+- ✅ Multi-Agent AI Workflow
+- ✅ Download Complete Startup Report
+
+---
+
+# 📸 Application Preview
+
+## 🏠 Home Page
+
+<p align="center">
+<img src="screenshots/home.png" width="90%">
+</p>
+
+---
+
+## ⭐ AI Startup Score
+
+<p align="center">
+<img src="screenshots/startup_score.png" width="90%">
+</p>
+
+---
+
+## 📊 Business Analysis Report
+
+<p align="center">
+<img src="screenshots/market_research.png" width="90%">
+</p>
+
+---
+
+## 🗓️ Roadmap & Investor Report
+
+<p align="center">
+<img src="screenshots/roadmap.png" width="90%">
+</p>
+
+---
+
+# 🧠 AI Agents
+
+FounderAI consists of multiple specialized AI agents working together.
+
+| AI Agent | Responsibility |
+|----------|----------------|
+| 💡 Idea Validator | Validates startup feasibility |
+| 📊 Market Research Agent | Analyzes market demand and opportunities |
+| ⚔️ Competitor Agent | Identifies competitors and market gaps |
+| 🏢 Business Model Agent | Creates a complete business model |
+| 💰 Financial Planner | Estimates investment, revenue and profitability |
+| 📢 Marketing Agent | Generates customer acquisition strategies |
+| 🎤 Investor Pitch Agent | Creates an investor-ready pitch |
+| ⭐ Startup Score Agent | Calculates startup potential |
+| 🗓️ Roadmap Agent | Generates a 12-month execution plan |
+
+---
+
+# ⚙️ Tech Stack
+
+### Programming
 
 - Python
+
+### Framework
+
 - Streamlit
+
+### LLM
+
+- Groq
 - LangChain
-- Groq API
-- Python Dotenv
+
+### Libraries
+
+- python-dotenv
+- Markdown
+- Regex
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
+```text
 FounderAI
 │
 ├── agents/
-│   ├── idea_validator.py
-│   ├── market_research.py
-│   ├── competitor_analysis.py
 │   ├── business_model.py
+│   ├── competitor_analysis.py
 │   ├── financial_planner.py
+│   ├── idea_validator.py
+│   ├── investor_pitch.py
 │   ├── marketing_strategy.py
-│   ├── startup_score.py
-│   └── roadmap.py
+│   ├── market_research.py
+│   ├── roadmap.py
+│   └── startup_score.py
 │
-├── prompts/
-├── graph/
-├── assets/
-├── utils/
+├── screenshots/
 │
 ├── app.py
-├── config.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .env
 ```
 
 ---
 
-## ⚙️ Installation
+# 🚀 Installation
 
-Clone the repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/muskanbodthewar/FounderAI.git
 ```
 
-Move into the project directory
+Move into the project folder
 
 ```bash
 cd FounderAI
@@ -100,10 +157,10 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Create a **.env** file
+Create a `.env` file
 
 ```env
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=YOUR_GROQ_API_KEY
 ```
 
 Run the application
@@ -114,79 +171,102 @@ streamlit run app.py
 
 ---
 
-## 🎯 Workflow
+# 🔄 Workflow
 
-```
-Startup Idea
-      │
-      ▼
-Idea Validator
-      │
-      ▼
-Market Research
-      │
-      ▼
-Competitor Analysis
-      │
-      ▼
-Business Model
-      │
-      ▼
-Financial Planning
-      │
-      ▼
-Marketing Strategy
-      │
-      ▼
-Startup Score
-      │
-      ▼
-Roadmap Generator
-```
-
----
-
-## 📸 Screenshots
-
-Add screenshots of your Streamlit application here.
-
-Example:
-
-```
-images/home.png
-images/report.png
-images/roadmap.png
+```text
+               Startup Idea
+                     │
+                     ▼
+          AI Startup Score Agent
+                     │
+                     ▼
+          Idea Validation Agent
+                     │
+                     ▼
+        Market Research Agent
+                     │
+                     ▼
+      Competitor Analysis Agent
+                     │
+                     ▼
+        Business Model Agent
+                     │
+                     ▼
+      Financial Planning Agent
+                     │
+                     ▼
+      Marketing Strategy Agent
+                     │
+                     ▼
+         Investor Pitch Agent
+                     │
+                     ▼
+      12-Month Roadmap Agent
+                     │
+                     ▼
+       Download Business Report
 ```
 
 ---
 
-## 🔮 Future Improvements
+# 🎯 Use Cases
 
-- PDF Report Export
-- Investor Pitch Deck Generator
+FounderAI can be used by
+
+- Startup Founders
+- Entrepreneurs
+- Students
+- Incubators
+- Investors
+- Business Consultants
+- Innovation Labs
+- Hackathon Participants
+
+---
+
+# 🔮 Future Improvements
+
+- PDF Report Generation
+- PowerPoint Pitch Deck Generator
 - SWOT Analysis
 - Risk Assessment
-- Team Recommendation
+- Team Recommendation Agent
 - Funding Estimation
 - Startup Logo Generator
+- Market Size Visualization
+- Business Canvas Export
 - Multi-language Support
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
-**Muskan Bodthewar**
+## Muskan Bodthewar
 
-Aspiring Data Scientist | Machine Learning | Deep Learning | Generative AI | Agentic AI
+**Aspiring Data Scientist | Machine Learning | Deep Learning | Generative AI | Agentic AI**
 
-GitHub:
+### GitHub
+
 https://github.com/muskanbodthewar
 
-LinkedIn:
-(Add your LinkedIn profile here)
+### LinkedIn
+
+https://www.linkedin.com/in/muskanbodthewar
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project useful,
+
+please consider giving it a ⭐ on GitHub.
+
+It motivates me to build more AI projects.
+
+---
+
+<p align="center">
+
+Made with ❤️ using Python, Streamlit & Agentic AI
+
+</p>
