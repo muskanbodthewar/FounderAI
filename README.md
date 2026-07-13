@@ -54,7 +54,7 @@ Whether you're an entrepreneur, student, or innovator, FounderAI helps convert r
 
 ---
 
-## 📊 Business Analysis Report
+## 📊 Market Research Report
 
 <p align="center">
 <img src="screenshots/market_research.png" width="90%">
@@ -62,7 +62,7 @@ Whether you're an entrepreneur, student, or innovator, FounderAI helps convert r
 
 ---
 
-## 🗓️ Roadmap & Investor Report
+## 🗓️ Roadmap Report
 
 <p align="center">
 <img src="screenshots/roadmap.png" width="90%">
